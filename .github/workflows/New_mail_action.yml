@@ -31,7 +31,7 @@ jobs:
           # Optional whether this connection use TLS (default is true if server_port is 465)
           secure: true
           # Required mail subject:
-          username: ${{secrets.acmaffei1999@gmail.com}}
+          username: ${{secrets.acmaffei1999}}
           password: ${{secrets.zhgmbzzjhrfskwpm}}
           subject: Github Actions job result
           # Required recipients' addresses:
