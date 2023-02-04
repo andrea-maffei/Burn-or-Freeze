@@ -33,7 +33,7 @@ jobs:
           password: ${{secrets.MAIL_PASSWORD}}
           subject: Github Actions job result
           # Required recipients' addresses:
-          to: amaffei1@babson.edu
+          to: amaffei1@babson.edu, jrussoalvesdelima1@babson.edu, llemoal1@babson.edu, sgarnaoui1@babson.edu, lmagalhaes1@babson.edu
           # Required sender full name (address can be skipped) :
           from: Andrea Maffei # <user@example.com>
           # Optional plain body:
