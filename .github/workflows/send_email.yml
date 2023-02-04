@@ -1,0 +1,18 @@
+name: mail auto
+
+on: [push]
+---
+- name: Send email
+  # You may pin to the exact commit or the version.
+  # uses: dawidd6/action-send-mail@6063705cefe50cb915fc53bb06d4049cae2953b2
+  uses: dawidd6/action-send-mail@v3.7.1
+  with:
+    subject: Freeze or Burn Push Updates
+    # Recipients mail addresses (separated with comma)
+    to: amaffei1@babson.edu
+    # Full name of mail sender (might be with an email address specified in <>)
+    from: amaffei1@babson.edu
+    # Body of mail message (might be a filename prefixed with file:// to read from)
+    body: There was a commit change on the repo, go check it out!
+    # HTML body of mail message (might be a filename prefixed with file:// to read from)
+    
