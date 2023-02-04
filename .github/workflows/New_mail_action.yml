@@ -33,8 +33,6 @@ jobs:
           secure: true
           # Required mail subject:
           username: ${{secrets.amaffei1}}
-          # Optional (recommended) mail server password:
-          password: ${{secrets.fEZF^z79}}
           subject: Github Actions job result
           # Required recipients' addresses:
           to: amaffei1@babson.edu
