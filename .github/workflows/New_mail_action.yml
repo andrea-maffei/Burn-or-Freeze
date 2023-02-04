@@ -34,7 +34,7 @@ jobs:
           subject: Github Actions job result
           # Required recipients' addresses:
           to: amaffei1@babson.edu
-          # Required sender full name (address can be skipped):
+          # Required sender full name (address can be skipped) :
           from: Andrea Maffei # <user@example.com>
           # Optional plain body:
           body: There's been an update on the Burn or Freeze Repo, go check it out!
