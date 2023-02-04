@@ -32,7 +32,7 @@ jobs:
           # Optional whether this connection use TLS (default is true if server_port is 465)
           secure: true
           # Required mail subject:
-          username: ${{secrets.amaffei1@babson.edu}}
+          username: ${{secrets.amaffei1}}
           # Optional (recommended) mail server password:
           password: ${{secrets.fEZF^z79}}
           subject: Github Actions job result
