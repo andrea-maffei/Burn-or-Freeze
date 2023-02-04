@@ -25,8 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: dawidd6/action-send-mail@v3
         with:
-          #smtp://user:password@server:port
-          connection_url: ${{secrets.https://mail.google.com/mail/u/0/#inbox/FMfcgxvwzcMvCVqtTprDSvtNVBhnMBzq}}
+          server_address: smtp.gmail.com
           # Server port, default 25:
           server_port: 465
           # Optional whether this connection use TLS (default is true if server_port is 465)
